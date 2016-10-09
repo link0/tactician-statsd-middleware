@@ -1,0 +1,25 @@
+{
+    "name": "link0/tactician-statsd-middleware",
+    "description": "Tactician middleware to measure command throughput to statsd",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dennis de Greef",
+            "email": "github@link0.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Link0\\Tactician\\": "src/"
+        }
+    },
+    "require": {
+        "league/tactician": "^1.0",
+        "league/statsd": "^1.4",
+        "phpspec/prophecy": "^1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.6"
+    }
+}
